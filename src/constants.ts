@@ -1,0 +1,95 @@
+import { Product, Category, Banner } from './types';
+
+export const CATEGORIES: Category[] = [
+  { id: '1', name: 'Sarees', icon: 'Sparkles', color: 'bg-indigo-100 text-indigo-600' },
+  { id: '2', name: 'Ladies Wear', icon: 'Flower2', color: 'bg-pink-100 text-pink-600' },
+  { id: '3', name: 'Kids Wear', icon: 'Baby', color: 'bg-blue-100 text-blue-600' },
+  { id: '4', name: 'Inner Garments', icon: 'ShieldCheck', color: 'bg-teal-100 text-teal-600' },
+  { id: '5', name: 'Matching Centre', icon: 'Palette', color: 'bg-amber-100 text-amber-600' },
+  { id: '6', name: 'Suitings & Shirtings', icon: 'Shirt', color: 'bg-slate-100 text-slate-600' },
+  { id: '7', name: 'Shawls', icon: 'Wind', color: 'bg-cyan-100 text-cyan-600' },
+  { id: '8', name: 'Handloom Items', icon: 'Hand', color: 'bg-orange-100 text-orange-600' },
+];
+
+export const BANNERS: Banner[] = [
+  { id: '1', image: 'https://picsum.photos/seed/saree1/800/400', title: 'Exquisite Sarees', subtitle: 'New Wedding Collection Out Now' },
+  { id: '2', image: 'https://picsum.photos/seed/kids1/800/400', title: 'Kids Fest', subtitle: 'Up to 30% Off on Ethnic Wear' },
+  { id: '3', image: 'https://picsum.photos/seed/handloom/800/400', title: 'Pure Handloom', subtitle: 'Support Traditional Craftsmanship' },
+];
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'p1',
+    name: 'Kanchipuram Silk Saree',
+    price: 4999,
+    oldPrice: 7999,
+    image: 'https://picsum.photos/seed/vlt_saree1/400/400',
+    category: 'Sarees',
+    rating: 4.9,
+    isNew: true,
+  },
+  {
+    id: 'p2',
+    name: 'Embroidered Salwar Suit',
+    price: 1899,
+    oldPrice: 2499,
+    image: 'https://picsum.photos/seed/vlt_ladies1/400/400',
+    category: 'Ladies Wear',
+    rating: 4.5,
+  },
+  {
+    id: 'p3',
+    name: 'Kids Silk Pattu Pavadai',
+    price: 1250,
+    oldPrice: 1800,
+    image: 'https://picsum.photos/seed/vlt_kids1/400/400',
+    category: 'Kids Wear',
+    rating: 4.7,
+    isNew: true,
+  },
+  {
+    id: 'p4',
+    name: 'Premium Linen Shirt Piece',
+    price: 850,
+    oldPrice: 1200,
+    image: 'https://picsum.photos/seed/vlt_shirt1/400/400',
+    category: 'Suitings & Shirtings',
+    rating: 4.6,
+  },
+  {
+    id: 'p5',
+    name: 'Kashmiri Woolen Shawl',
+    price: 1499,
+    oldPrice: 2199,
+    image: 'https://picsum.photos/seed/vlt_shawl1/400/400',
+    category: 'Shawls',
+    rating: 4.8,
+  },
+  {
+    id: 'p6',
+    name: 'Cotton Handloom Dhoti',
+    price: 650,
+    oldPrice: 850,
+    image: 'https://picsum.photos/seed/vlt_hand1/400/400',
+    category: 'Handloom Items',
+    rating: 4.4,
+  },
+  {
+    id: 'p7',
+    name: 'Designer Blouse Piece',
+    price: 350,
+    oldPrice: 500,
+    image: 'https://picsum.photos/seed/vlt_match1/400/400',
+    category: 'Matching Centre',
+    rating: 4.3,
+  },
+  {
+    id: 'p8',
+    name: 'Kids Cotton Kurta Set',
+    price: 899,
+    oldPrice: 1399,
+    image: 'https://picsum.photos/seed/vlt_kids2/400/400',
+    category: 'Kids Wear',
+    rating: 4.6,
+  },
+];
